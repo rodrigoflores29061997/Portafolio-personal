@@ -1,0 +1,96 @@
+Portafolio personal 
+Fecha de entrega Viernes a las 23:59 Puntos 6 Entregando un cuadro de entrada de texto o una URL de página web Disponible 12 de jun en 0:00 - 13 de jun en 23:59
+Portafolio personal
+Crea tu portafolio personal usando HTML + Bootstrap.
+
+Debe ser responsive y estar bien estructurado.
+
+ 
+
+📌Inspiración:
+https://brittanychiang.com/#aboutLinks to an external site.
+
+https://www.joshwcomeau.com/Links to an external site.
+
+https://olaolu.dev/resumeLinks to an external site.
+
+ 
+
+✅ Requisitos obligatorios
+1️⃣ Navbar
+Debe contener:
+
+<!-- Nombre o logo -->
+
+<!-- Links a secciones: -->
+
+<!-- Inicio -->
+
+<!-- Sobre mí -->
+
+<!-- Proyectos -->
+
+Contacto
+
+📌 Debe ser responsive (menú hamburguesa en celular)
+
+2️⃣ Sección Inicio (Header / Hero)
+Debe incluir:
+
+Tu nombre
+
+Rol (Desarrollador/a java fullstack)
+
+Breve descripción
+
+📌 Usa Grid y clases de Bootstrap
+
+3️⃣ Sección “Sobre mí”
+Debe incluir:
+
+Texto descriptivo (Estudios y certificaciones)
+
+Layout de 2 columnas (imagen + texto)
+
+📌 Responsive
+
+4️⃣ Sección Proyectos
+Debe incluir:
+
+Al menos 3 proyectos
+
+Usar Cards
+
+Grid de 3 columnas (en desktop)
+
+📌 En celular → 1 por fila
+
+5️⃣ Sección Contacto
+Debe incluir:
+
+Formulario con:
+
+Nombre
+
+Correo
+
+Mensaje
+
+Botón
+
+📌 No necesita funcionar (solo diseño)
+
+6️⃣ Footer
+Debe incluir:
+
+Texto simple
+
+Año actual
+
+echo "# Portafolio-personal" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/rodrigoflores29061997/Portafolio-personal.git
+git push -u origin main

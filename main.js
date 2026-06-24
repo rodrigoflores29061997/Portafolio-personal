@@ -1,23 +1,14 @@
-// ======================================
-// PORTAFOLIO - MAIN.JS
-// ======================================
-
+// PORTAFOLIOL
 console.log("Bienvenido a mi portafolio");
 
-// ======================================
-// AÑO AUTOMÁTICO EN EL FOOTER
-// ======================================
-
+// FOOTER ATOMATICO
 const anio = document.getElementById("anio");
 
 if (anio) {
     anio.textContent = new Date().getFullYear();
 }
 
-// ======================================
-// DESPLAZAMIENTO SUAVE DEL MENÚ
-// ======================================
-
+// Desplazamiento suave del menu
 const enlaces = document.querySelectorAll('.nav-link');
 
 enlaces.forEach(enlace => {
@@ -47,10 +38,7 @@ enlaces.forEach(enlace => {
 
 });
 
-// ======================================
-// MENSAJE AL ENVIAR EL FORMULARIO
-// ======================================
-
+// Mensaje al enviar formualario
 const formulario = document.querySelector("form");
 
 if (formulario) {
@@ -67,9 +55,8 @@ if (formulario) {
 
 }
 
-// ======================================
-// EFECTO EN LAS CARDS
-// ======================================
+
+// Efecto en las Cards
 
 const cards = document.querySelectorAll(".card");
 
@@ -89,9 +76,9 @@ cards.forEach(card => {
 
 });
 
-// ======================================
-// BOTÓN "VER PROYECTOS"
-// ======================================
+
+// boton ver proyectos
+
 
 const boton = document.querySelector(".btn-primary");
 

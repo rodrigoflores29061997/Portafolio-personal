@@ -12,8 +12,9 @@ section{
 
 #inicio img{
     width:300px;
-    border-radius:50%;
-
+    height:420px;
+    object-fit:cover;
+    border-radius:800%;
 }
 
 .card{
